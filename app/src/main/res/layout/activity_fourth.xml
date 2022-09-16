@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".FourthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berikut Data Diri Saya"
+            android:layout_marginTop="40dp"
+            android:textSize="13pt"
+            android:textColor="@color/babypink"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100pt"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/dewi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nama Saya Dewi Monica"
+            android:layout_marginTop="30dp"
+            android:textSize="10pt"
+            android:textColor="@color/babypink" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="NIM saya 1910102017"
+            android:textSize="10pt"
+            android:textColor="@color/babypink" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Alamat saya Jl. Tegal Sari 3 no.25, Tangerang"
+            android:textSize="10pt"
+            android:textColor="@color/babypink" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Prodi saya Sistem Informasi"
+            android:textSize="10pt"
+            android:textColor="@color/babypink" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Ini adalah UTS buatan saya sendiri, malu kalau contek punya orang !!"
+            android:textSize="10pt"
+            android:textColor="@color/babypink" />
+    </LinearLayout>
+
+
+</ScrollView>

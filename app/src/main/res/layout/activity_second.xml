@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Mahasiswa"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="13pt"
+            android:textColor="@color/babypink" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="NIM"
+            android:textSize="9pt"
+            android:textColor="@color/babypink" />
+        <EditText
+            android:id="@+id/etnim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input NIM"
+            android:textSize="9pt"
+            android:inputType="number"
+            android:backgroundTint="@color/babypink"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink" />
+        <EditText
+            android:id="@+id/etnama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Nama"
+            android:textSize="9pt"
+            android:backgroundTint="@color/babypink"
+            android:inputType="textPersonName"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink" />
+        <EditText
+            android:id="@+id/etalamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Alamat"
+            android:textSize="9pt"
+            android:backgroundTint="@color/babypink"
+            android:inputType="textLongMessage"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prodi"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink" />
+        <EditText
+            android:id="@+id/etprodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Prodi"
+            android:textSize="9pt"
+            android:backgroundTint="@color/babypink"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No HP"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink" />
+        <EditText
+            android:id="@+id/etnohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input No HP"
+            android:backgroundTint="@color/babypink"
+            android:textSize="9pt"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Kewarganegaraan"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink" />
+        <EditText
+            android:id="@+id/etstatuskwn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Status Kewarganegaraan"
+            android:backgroundTint="@color/babypink"
+            android:textSize="9pt"
+            android:inputType="text"/>
+        <Button
+            android:id="@+id/btnnext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="NEXT"
+            android:backgroundTint="@color/Mauve"/>
+        <Button
+            android:id="@+id/btndatadirisaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATA DIRI SAYA"
+            android:backgroundTint="@color/Mauve"/>
+    </LinearLayout>
+</ScrollView>

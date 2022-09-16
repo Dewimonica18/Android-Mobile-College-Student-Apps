@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100pt"
+            android:src="@drawable/bts" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Mata Kuliah"
+            android:textSize="13pt"
+            android:textColor="@color/babypink"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Matkul"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink" />
+        <EditText
+            android:id="@+id/etkodematkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Kode Matkul"
+            android:backgroundTint="@color/babypink"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Matkul"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink"/>
+        <EditText
+            android:id="@+id/etnamamatkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Nama Matkul"
+            android:backgroundTint="@color/babypink"
+            android:inputType="textLongMessage"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SKS"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink"/>
+        <EditText
+            android:id="@+id/etsks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input SKS"
+            android:backgroundTint="@color/babypink"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type Matkul"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:textColor="@color/babypink"/>
+        <EditText
+            android:id="@+id/ettypematkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Type Matkul"
+            android:backgroundTint="@color/babypink"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnnext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Mauve"
+            android:text="NEXT"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/Mauve"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:id="@+id/btnmainmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Menu"
+            android:backgroundTint="@color/Mauve"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
